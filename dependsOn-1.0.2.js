@@ -5,8 +5,15 @@
  * Copyright (c) 2015 David Street
  * @license the MIT license.
  */
-
-(function ($) {
+(function (factory) {
+	if (typeof define === 'function' && define.amd) {
+		define(['exports'], factory);
+	} else if (typeof exports === 'object') {
+		module.exports = factory(require('jquery'));
+	} else {
+		factory(jQuery);
+	}
+}(function ($) {
 
 	/**
 	 * Creates a new Dependency
@@ -598,4 +605,4 @@
 
 	};
 
-})( jQuery );
+}));
