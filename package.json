@@ -1,0 +1,27 @@
+{
+  "name": "jquery-dependson",
+  "version": "1.0.2",
+  "description": "a jQuery plugin to facilitate the handling of form field dependencies.",
+  "main": "dependsOn-1.0.2.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dstreet/dependsOn.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "dependsOn"
+  ],
+  "author": "Nanymor <nany@bbox.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dstreet/dependsOn/issues"
+  },
+  "homepage": "https://github.com/dstreet/dependsOn"
+}
