@@ -18,6 +18,14 @@
     "plugin",
     "dependsOn"
   ],
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  },
   "author": "Nanymor <nany@bbox.it>",
   "license": "ISC",
   "bugs": {
